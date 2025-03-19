@@ -2,7 +2,7 @@
 import express from 'express';
 const server = express();
 
-import routerPayment from '.routes/payment.routes.js'
+import routerPayment from './routes/payment.routes.js'
 
 const PORT = process.env.PORT || 3000;
 
